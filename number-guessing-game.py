@@ -5,7 +5,7 @@ def play_guessing_game(from_int: int, to_int: int, num_of_tries: int):
     used_tries = 0
     number_to_guess = randint(from_int, to_int)
 
-    print(f"Guess a number between {from_int} and {to_int}. You have {num_of_tries} tries.")
+    print(f'Guess a number between {from_int} and {to_int}. You have {num_of_tries} tries.')
 
     while used_tries < num_of_tries:
         used_tries += 1
