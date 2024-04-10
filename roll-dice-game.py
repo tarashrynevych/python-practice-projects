@@ -1,8 +1,5 @@
 from random import randint
 
-
-from random import randint
-
 def roll_dice(amount: int) -> list[int]:
     """
     Rolls a specified amount of dice and returns the results.
