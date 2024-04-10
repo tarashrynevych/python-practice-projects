@@ -29,7 +29,7 @@ def play_game():
         try:
             roll_result = roll_dice(int(user_input))
             print(*roll_result, sep=', ')
-            print(sum(roll_result))
+            print('The sum of all numbers is', sum(roll_result))
         except ValueError:
             print('Please add a valid number')
             
